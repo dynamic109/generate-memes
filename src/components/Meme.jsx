@@ -27,7 +27,7 @@ function Meme() {
         <input type="text" placeholder="Botttom text" />
         <button onClick={getUrl}>Get a new meme image 🖼</button>
         <img src={meme.randomImage} className="meme-container" />
-        <p>how the it  </p>
+        <p>how the  </p>
       </div>
     </main>
   );
