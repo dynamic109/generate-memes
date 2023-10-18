@@ -26,11 +26,15 @@ function Meme() {
         <input type="text" placeholder="Top text" />
         <input type="text" placeholder="Botttom text" />
         <button onClick={getUrl}>Get a new meme image 🖼</button>
+      </div>
+
+      <div className="meme">
         <img src={meme.randomImage} className="meme-container" />
+        <h2 className="meme-text top">One does not simply</h2>
+        <h2 className="meme-text bottom">Walk into Mordor</h2>
       </div>
     </main>
   );
 }
 
 export default Meme;
-x`xxxxx`
